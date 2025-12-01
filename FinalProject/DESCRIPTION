@@ -1,0 +1,21 @@
+Package: RiceMessageVisualization
+Type: Package
+Title: Discord Activity Visualization 
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Rice", "Chloe",
+      email = "chloerice@usf.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Automatically cleans data obtained from a Discord Channel 
+    (Onlien Social messaging application) and generates visualizations, including
+    identifying top messengers and time series based off user activity. 
+License: GNU General Public License
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/ChloeRRice/r-programming-assignments
+Imports: 
+    ggplot2, dplyr, lubridate
+RoxygenNote: 7.3.3.9000
